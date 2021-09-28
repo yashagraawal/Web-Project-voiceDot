@@ -1,0 +1,59 @@
+.title{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#logintab{
+    height: 70%;
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: solid 2px white;
+    overflow: auto;
+}
+
+#registertab{
+    height: 80%;
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: solid 2px white;
+    overflow: auto;
+}
+
+#face{
+    height: 18%;
+    width: 25%;
+}
+
+
+.in{
+    margin: 3%;
+    color: black;
+    background-color: transparent;
+    border: white 2px solid;
+    border-radius: 10px;
+    width: 90%;
+    height: 8%;
+}
+
+#msg{
+    color: red;
+    font-size: 15px;
+}
+
+#check{
+    margin: auto;
+}
+
+#act{
+    background-color: rgb(69, 150, 112);
+    border-radius: 10px;
+    width: 70%;
+    height: 8%;
+    text-align: center;
+    color: white;
+}

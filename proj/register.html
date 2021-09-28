@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>voiceDot</title>
+        
+        <meta charset="UTF-8">
+        <meta name="description" content="brief description">
+        <meta name="keywords" content="important keywords for search">
+        <meta name="author" content="author name">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="CSS/login.css" rel="stylesheet">
+        <link href="CSS/common.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    
+    <body>
+
+        <header>
+            <ul id="nav">
+                <li><a id="branding" href="../Proj/index.html">voiceDot</a></li>
+                <li><a class="navopt" href="../Proj/login.html" target="_blan>k">Login</a></li>
+                <li><a class="navopt" href="#foot">About</a></li>
+                <li><a class="navopt" href="../Proj/explore.html" target="_blank">Explore</a></li>
+                <li><a class="navopt" href="../Proj/index.html">Home</a></li>
+                <li><input type="text" id="search" placeholder="Search"></li>
+                
+            </ul>
+        </header>
+        <br><br><br><br>
+
+        <div id="registertab">
+            <h2 class="title">Create New Account</h2>
+            <img id="face" src="../Proj/Images/icons/login.png"><br><br>
+            <span id="msg"></span><br>
+            <form>
+                <input class="in" id="newid" type="text" placeholder="Enter New User ID"><br>
+                <input class="in" id="newpass" type="password" placeholder="Enter Password"><br>
+                <input class="in" id="cnewpass" type="password" placeholder="Confirm Password"><br>
+                <input type="checkbox" id="check"> &nbsp; <label>Show password</label><br><br>
+                <input id="act" class="button" type="button" value="Register" onclick="register()"><br>
+            </form>
+
+            <a href="login.html">Login</a><br>
+        </div>
+
+        <br><br>
+        <footer id="foot">
+            <h2>About</h2>
+            <p>Contact:</p>
+            <a href="../proj/contact.html" target="_blank">Customer support</a>
+            <p>India</p>
+            <table id="social">
+                <tr>
+                    <td><img id="icon" src="../Proj/Images/icons/facebook.png" onclick="location.href='https://www.facebook.com/'"></td>
+                    <td><img id="icon" src="../Proj/Images/icons/instagram.png" onclick="location.href='https://www.instagram.com/'"></td>
+                    <td><img id="icon" src="../Proj/Images/icons/twitter.png" onclick="location.href='https://twitter.com/?lang=en'"></td>
+                </tr>
+            </table>
+            <p></p>
+            <div id="divf">
+                <hr>
+                <p>Copyright © 2021 voiceDot. - All rights reserved.</p>
+            </div>
+       </footer>
+
+       <script src="../proj/javascript/signin.js"></script>
+    </body>
+    </html>

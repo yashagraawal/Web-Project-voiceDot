@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(153, 200, 216);
+}
+
+#nav{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    list-style-type: none;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#branding{
+    font-size: 170%;
+    font-weight: bold;
+    font-family: cursive;
+    text-align: center;
+    float: left;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+} 
+
+#search{
+    border: white 2px solid;
+    color: white;
+    width: 30%;
+    height: 60%;
+    display: block;
+    margin: 10px;
+    float: right;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.navopt:hover{
+    background-color: rgb(79, 163, 131);
+}
+
+.navopt{
+    display: block;
+    float: right;
+    color: white;
+    font-size: 135%;
+    padding:19px;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#foot{
+    text-align: center;
+    border: white 0.5px solid;
+    height: 300px;
+    overflow: hidden;
+    align-items: center;
+    margin-top: 2%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#social{
+    margin: auto;
+    width: auto;
+}
+
+#icon{
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+}
+
+#divf{
+    color: lightslategray;
+    margin: auto;
+    height: 50px;
+    width: 50%;
+    text-align: center;
+}

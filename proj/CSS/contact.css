@@ -1,0 +1,33 @@
+label{
+    font-size: 25px; 
+}
+
+#uid{
+    height: 6%;
+    background-color: whitesmoke;
+    font-size: 20px;
+    border: white 2px solid;
+    border-radius: 10px;
+}
+
+#sbtn{
+    height: 6%;
+    width: 20%;
+    color: black;
+    border: white 2px solid;
+    border-radius: 10px;
+}
+
+#feed{
+    height: 20%;
+    width: 50%;
+    background-color: whitesmoke;
+    font-size: 20px;
+    border: white 2px solid;
+    border-radius: 10px;
+}
+
+#response{
+    font-size: 20px;
+    font-weight: bold;
+}

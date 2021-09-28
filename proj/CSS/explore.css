@@ -1,0 +1,63 @@
+.outer{
+    display: inline;
+    width: auto;
+    margin:5%;
+    
+}
+
+#prodview{
+    height: 80%;
+    width: 40%;
+    padding: 10px;
+    border: 2px solid white;
+    display: inline-block;
+    overflow: auto;
+    background-color: rgb(75, 161, 128)
+}
+
+#prodimg{
+    height: 60%;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.sale{
+    border: 1px solid white;
+    background-color: green;
+    color: white;
+    padding: 3px;
+    float: right;
+    border-radius: 10px;
+}
+
+.rate{
+    padding: 3px;
+    margin: 2px;
+    float: right;
+}
+
+.ic{
+    height: 25px;
+    width: 25px;
+}
+
+.buyb:hover{
+    height: 32px;
+    width: 245px;
+    transition-duration: 200ms;
+    transition-timing-function: ease-out;
+}
+
+.buyb{
+    font-size: 20px;
+    height: 35px;
+    width: 250px;
+    background-color: rgb(99, 189, 99);
+    color: black;
+    text-align: center;
+    border: white solid 1px;
+    border-radius: 10px;
+    float: right;
+    padding: 5px;
+    margin-bottom: 5px;
+}
